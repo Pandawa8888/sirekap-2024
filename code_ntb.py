@@ -4,9 +4,9 @@ import csv
 
 data = [
   {
-    "nama": "JAWA TIMUR",
-    "id": 191099,
-    "kode": "35",
+    "nama": "NUSA TENGGARA BARAT",
+    "id": 191104,
+    "kode": "52",
     "tingkat": 1
   }
 ]
@@ -35,7 +35,7 @@ def saveData(writer, wilayah, data):
             data["images"][1]
         ])
 
-with open("Sirekap_Jatim.csv", 'w', newline='') as file:
+with open("Sirekap_NTB.csv", 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Prov", "Kota", "Kec", "Kel", "TPS", "Suara Sah", "Total Suara", "Paslon 1", "Paslon 2", "Paslon 3", "Link Dokumen"])
     

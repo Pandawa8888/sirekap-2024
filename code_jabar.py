@@ -35,7 +35,7 @@ def saveData(writer, wilayah, data):
             data["images"][1]
         ])
 
-with open("Sirekap_Sulbar.csv", 'w', newline='') as file:
+with open("Sirekap_Jabar.csv", 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Prov", "Kota", "Kec", "Kel", "TPS", "Suara Sah", "Total Suara", "Paslon 1", "Paslon 2", "Paslon 3", "Link Dokumen"])
     
